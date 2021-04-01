@@ -1,0 +1,23 @@
+body{
+	
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:quicksand;
+}
+.nav-link{
+	margin-left:15px;
+
+}
+.navbar-brand{
+	margin-right: 23%;
+}
+.input-group{
+	margin-left:123px;
+
+}
+.carousel-caption{
+	color: black;
+}
+.carousel-inner > .item {
+   height: 400px;
+}
