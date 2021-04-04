@@ -5,19 +5,80 @@ body{
 	font-family:quicksand;
 }
 .nav-link{
-	margin-left:15px;
-
+	margin: 0 10px 0 15px;
+	text-transform: capitalize;
+	font-weight: bold;
 }
 .navbar-brand{
-	margin-right: 23%;
-}
-.input-group{
-	margin-left:123px;
+	margin: 0 22% 0 15px;
 
 }
-.carousel-caption{
+.input-group{
+	margin-left:54%;
+
+}
+
+.carousel-item {
+   height: 70%;
+}
+.nav-link.log{
+		margin: 0 0 0 82%;
+
+}
+h2{
+	color: white;
+	opacity: 0.3;
+}
+.Title{
+	clear: left;
+	
+}
+.Title h3{
+	font-weight: bold;
+	margin: 18px 0 0 15px;
+	
+}
+.Title i{
+	
+	text-align: center;
+
+}
+.card{
+	margin: 18px 0 10px 15px;
+	float: left;
+}
+.card-img-top{
+	height: 190px;
+	width: 170px;
+	padding: 8px 8px 0px 8px;
+	transition: transform .2s;
+}
+
+.card-img-top:hover{
+	transform: scale(1.1); 
+}
+.card a{
+	text-decoration: none;
 	color: black;
 }
-.carousel-inner > .item {
-   height: 400px;
+.icon{
+	padding: 8px 8px 8px 8px;
+}
+.fas.fa-heart{
+	color: #444547;
+}
+.fas.fa-heart:hover{
+	color: red;
+	
+}
+.fas.fa-heart:visited{
+	color: red;
+	
+}
+.fas.fa-share-alt{
+	color: #444547;
+	margin: 0 0 0 9px;
+}
+.fas.fa-share-alt:hover{
+	color: black;
 }
