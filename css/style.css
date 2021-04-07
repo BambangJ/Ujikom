@@ -4,21 +4,47 @@ body{
 	background-size:cover;
 	font-family:quicksand;
 }
-
+#up{
+	margin: 0 10px 0 15px;
+	position: relative;
+  }
+  #up:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '.';
+	color: transparent;
+	background: #aaa;
+	height: 1px;
+  }
+  #up:hover:after {
+	width: 100%;
+  }
 .input-group{
 	margin-left:54%;
 
 }
+.navbar-brand{
+	margin: 0 22% 0 15px;
 
+}
+.nav-link{
+	font-weight: bold;
+}
+.navbar.navbar-expand-sm{
+
+	box-shadow: 0 8px 6px -6px #999;
+}
 .carousel-item {
-   height: 70%;
+   height: 78%;
    
 }
-.carousel-caption{
-	color: black;
-   	text-align: left;
-	font-style: inherit;
-	font-weight: bold;
+.carousel-item img{
+	height: 100%;
+	width: 70%;
 }
 .Title{
 	clear: left;
@@ -29,6 +55,16 @@ body{
 	margin: 18px 0 0 15px;
 	
 }
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 13.5px;
+	text-shadow: 4px 4px 4px 4px darkgrey;
+	font-weight: bold;
+	color: cornsilk;
+  }
 .Title i{
 	
 	text-align: center;

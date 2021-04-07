@@ -2,19 +2,13 @@
 		@media (max-width: 480px) {		
 				.navbar-nav.up .nav-link{
 					text-transform: capitalize;
-					font-weight: bold;
-				}
-				
-				.navbar-brand{
-					margin: 0 22% 0 15px;
-				
 				}
 				.nav-link.log{
 						margin: 0 0 0 0;
 				
 				}
 				h2{
-					color: white;
+					color: black;
 					opacity: 0.3;
 					display: none;
 				}
@@ -31,13 +25,9 @@
 		@media (min-width: 481px) and (max-width: 767px) {
 			.navbar-nav.up .nav-link{
 				text-transform: capitalize;
-				font-weight: bold;
-			}
-			
-			.navbar-brand{
-				margin: 0 22% 0 15px;
 			
 			}
+			
 			.nav-link.log{
 					margin: 0 0 0 0;
 			
@@ -49,6 +39,7 @@
 			}
 			.navbar-nav.down .nav-link{
 				display: none;
+				
 			}	
 			footer{
 				display: none;
@@ -60,11 +51,11 @@
 			.navbar-nav.up .nav-link{
 				margin: 0 10px 0 15px;
 				text-transform: capitalize;
-				font-weight: bold;
+		
 			}
 			
 			.navbar-brand{
-				margin: 0 22% 0 15px;
+				margin: 0 0 0 15px;
 			
 			}
 			.nav-link.log{
@@ -86,25 +77,20 @@
 		}
 		
 
-		@media (min-width: 1025px) and (max-width: 1280px){
-			.nav-link{
-				margin: 0 10px 0 15px;
-				text-transform: capitalize;
-				font-weight: bold;
-			}
+		@media (min-width: 1025px) and (max-width: 1366px){
+			
+			
 			.navbar-nav.up .nav-link.book{
 				display: none;
 				}
-			.navbar-brand{
-				margin: 0 22% 0 15px;
 			
-			}
+			
 			.nav-link.log{
 					margin: 0 0 0 100%;
-			
+				
 			}
 			h2{
-				color: white;
+				color: black;
 				opacity: 0.3;
 			}
 			footer{
