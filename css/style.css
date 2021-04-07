@@ -4,15 +4,7 @@ body{
 	background-size:cover;
 	font-family:quicksand;
 }
-.nav-link{
-	margin: 0 10px 0 15px;
-	text-transform: capitalize;
-	font-weight: bold;
-}
-.navbar-brand{
-	margin: 0 22% 0 15px;
 
-}
 .input-group{
 	margin-left:54%;
 
@@ -20,14 +12,13 @@ body{
 
 .carousel-item {
    height: 70%;
+   
 }
-.nav-link.log{
-		margin: 0 0 0 82%;
-
-}
-h2{
-	color: white;
-	opacity: 0.3;
+.carousel-caption{
+	color: black;
+   	text-align: left;
+	font-style: inherit;
+	font-weight: bold;
 }
 .Title{
 	clear: left;
@@ -46,17 +37,20 @@ h2{
 .card{
 	margin: 18px 0 10px 15px;
 	float: left;
+	transition: transform .2s;
+}
+.card:hover{
+	transform: scale(1.1);
+	box-shadow: 2px; 
 }
 .card-img-top{
 	height: 190px;
 	width: 170px;
 	padding: 8px 8px 0px 8px;
-	transition: transform .2s;
+	border-radius: 11px;
 }
 
-.card-img-top:hover{
-	transform: scale(1.1); 
-}
+
 .card a{
 	text-decoration: none;
 	color: black;
@@ -81,4 +75,8 @@ h2{
 }
 .fas.fa-share-alt:hover{
 	color: black;
+}
+footer{
+	background-color: rgb(43, 44, 44);
+	
 }
