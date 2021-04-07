@@ -7,6 +7,7 @@ body{
 #up{
 	margin: 0 10px 0 15px;
 	position: relative;
+	
   }
   #up:after {
 	position: absolute;
@@ -22,6 +23,7 @@ body{
   }
   #up:hover:after {
 	width: 100%;
+	transition: 0.5s;
   }
 .input-group{
 	margin-left:54%;
@@ -70,12 +72,12 @@ body{
 	text-align: center;
 
 }
-.card{
+.card.l{
 	margin: 18px 0 10px 15px;
 	float: left;
 	transition: transform .2s;
 }
-.card:hover{
+.card.l:hover{
 	transform: scale(1.1);
 	box-shadow: 2px; 
 }
@@ -84,12 +86,6 @@ body{
 	width: 170px;
 	padding: 8px 8px 0px 8px;
 	border-radius: 11px;
-}
-
-
-.card a{
-	text-decoration: none;
-	color: black;
 }
 .icon{
 	padding: 8px 8px 8px 8px;
@@ -114,5 +110,68 @@ body{
 }
 footer{
 	background-color: rgb(43, 44, 44);
-	
+	color: cornsilk;
 }
+.carousel-caption{
+	color: black;
+	text-align: left;
+	font-weight: bold;
+	font-size: 18px;
+}
+.carousel-caption h5{
+	color: rgb(70, 29, 218);
+	font-size: 20px;
+}
+.carousel-item.l{
+	height: 64%;
+	
+ }
+ .navbar.navbar-expand-lg{
+	border-bottom:20px solid rgb(37, 230, 220);
+ }
+ .Title.l{
+	 text-align: center;
+ }
+
+ .card.u{
+	margin: 12% 10px 0 12%;
+	border: none;
+	float: left;
+	
+ }
+ .card.i{
+	
+	border: none;
+	margin: 5% 10px 0 9%;
+	clear: both;
+	float: left;
+	
+ }
+ .card.i img{
+	border-radius: 18px;
+ }
+ .card.o{
+	
+	border: none;
+	margin: 5% 18% 20% 10px;
+	clear: both;
+	float: right;
+	
+ }
+ .card.o img{
+	border-radius: 18px;
+ }
+ .card.i a{
+	 text-decoration: none;
+	 color: rgb(71, 71, 71);
+	 font-weight: bold;
+ }
+ .card.o a{
+	text-decoration: none;
+	color: rgb(71, 71, 71);
+	font-weight: bold;
+}
+ .cap{
+	 margin: 8% 12% 0 12%;
+	 text-align: center;
+ }
