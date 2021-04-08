@@ -1,5 +1,5 @@
 body{
-	
+	background-color: #000;
 	background-repeat:no-repeat;
 	background-size:cover;
 	font-family:quicksand;
@@ -7,7 +7,7 @@ body{
 #up{
 	margin: 0 10px 0 15px;
 	position: relative;
-	
+	transition: 0.5s;
   }
 #up:after {
 	position: absolute;
@@ -25,15 +25,8 @@ body{
 	width: 100%;
 	transition: 0.5s;
   }
-.input-group{
-	margin-left:54%;
 
-}
-.navbar-brand{
-	margin: 0 22% 0 15px;
-	
 
-}
 .nav-link{
 	font-weight: bold;
 }
@@ -43,16 +36,15 @@ body{
 }
 .carousel-item {
    height: 78%;
-   
+   opacity: 0.7;
 }
 .carousel-item img{
 	height: 100%;
 	width: 70%;
-	opacity: 0.8;
+
 }
 .Title{
 	clear: left;
-	
 }
 .Title h3{
 	font-weight: bold;
@@ -65,12 +57,11 @@ body{
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 13.5px;
-	text-shadow: 4px 4px 4px 4px darkgrey;
+	text-shadow: 4px 5px 6px 0 rgb(46, 45, 45);
 	font-weight: bold;
-	color: cornsilk;
+	color: rgb(58, 98, 145);
   }
 .Title i{
-	
 	text-align: center;
 
 }
@@ -87,11 +78,10 @@ body{
 .card-img-top{
 	height: 190px;
 	width: 170px;
-	padding: 8px 8px 0px 8px;
-	border-radius: 11px;
+	
 }
 .icon{
-	padding: 8px 8px 8px 8px;
+	padding: 8px 8px 10px 8px;
 }
 .fas.fa-heart{
 	color: #444547;
@@ -100,10 +90,7 @@ body{
 	color: red;
 	
 }
-.fas.fa-heart:visited{
-	color: red;
-	
-}
+
 .fas.fa-share-alt{
 	color: #444547;
 	margin: 0 0 0 9px;
@@ -116,13 +103,11 @@ footer{
 	color: cornsilk;
 }
 .carousel-caption{
-	color: black;
-	text-align: left;
 	font-weight: bold;
 	font-size: 18px;
 }
 .carousel-caption h5{
-	color: rgb(70, 29, 218);
+
 	font-size: 20px;
 }
 .carousel-item.l{
@@ -134,55 +119,7 @@ footer{
 	 text-align: center;
  }
 
- .card.u{
-	margin: 12% 10px 0 12%;
-	border: none;
-	float: left;
-	
- }
- .card.i{
-	
-	border: none;
-	margin: 5% 10px 0 9%;
-	clear: both;
-	float: left;
-	
- }
- .card.i img{
-	border-radius: 18px;	
-	opacity:0.4;
-	
- }
-  .card.i img:hover{
-	opacity:1;
-	transition: opacity 0.9s;
- }
- .card.o{
-	
-	border: none;
-	margin: 5% 10% 0 10px;
-	clear: both;
-	float: right;
-	
- }
- .card.o img{
-	border-radius: 18px;
-	opacity:0.4;
- }
-  .card.o img:hover{
-	opacity:1;
-	transition: opacity 0.9s;
- }
- .card.i a{
-	 text-decoration: none;
-	 color: rgb(71, 71, 71);
-	 font-weight: bold;
- }
- .card.o a{
-	text-decoration: none;
-	color: rgb(71, 71, 71);
-	font-weight: bold;
-}
+ 
  .cap{
 	 margin: 8% 12% 0 12%;
 	 text-align: center;
@@ -241,8 +178,11 @@ footer i:hover{
 	
 }
 .footer.l{
-	 background-color: #33383c;
+	background-color: #33383c;
 	padding:40px 0px;
 	margin: 10% 0 0 0 ;
 }
-
+.cursor.o{
+    cursor:pointer;
+	font-weight: bold;
+}

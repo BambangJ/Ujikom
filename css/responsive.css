@@ -19,6 +19,7 @@
 					padding: 0 26% 18% 0;
 					margin: 76% 0 0 0 ;
 				}
+
 			}
 			
 
@@ -41,22 +42,14 @@
 				display: none;
 				
 			}	
-			.card.o{
-			float:both;
-			border: none;
-			margin: 5% 0 20% 0;
-		
-			float: left;
-	
-			}
-			
-			.card.o img{
-			border-radius: 18px;
-			}
 			
 			footer{
 				display: none;
 			}
+			.input-group.u{
+				display: none;
+			}
+				
 		}
 		
 
@@ -84,8 +77,16 @@
 				display: none;
 			}
 			footer{
-			display:none;
+				display:none;
 			}
+			.rounded{
+				width: 100%;
+			}
+			.input-group.l{
+				display: none;
+			}
+		
+			
 		}
 		
 
@@ -108,5 +109,9 @@
 			footer{
 				margin: 10% 0 0 0 ;
 			}
+			.input-group.l{
+				display: none;
+			}
+		
 		}
 	

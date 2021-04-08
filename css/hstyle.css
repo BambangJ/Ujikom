@@ -1,0 +1,56 @@
+@import"https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css";
+body{
+    background-color:rgb(36, 33, 33);
+}
+.container.mb-5{
+    border-bottom:2px solid whitesmoke;
+}
+.card.o{
+
+    border:none;
+    outline:none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform 0.3s;
+    margin: 0 0 17px 0;
+}
+
+.card.o:hover{
+    transform: translateY(-15px);
+    transition: transform 0.3s;
+}
+
+.text1{
+    font-size: 13px;
+    color: #3a3a3ae5;
+}
+.info{
+    line-height: 17px;
+}
+.star{
+    color:#ce8e16
+}
+
+.apart{
+    background-color: rgb(13, 180, 192);
+}
+.villa{
+    background-color: rgb(13, 180, 192);
+}
+.apart:hover, .villa:hover{
+    opacity: 0.8;
+}
+.cursor.i{
+    cursor:pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.banner-image{
+    background-image: url(Img/22.jpg);
+    background-size: cover;
+    text-shadow: 2px 2px #6e6969
+}
+.lay{
+    float: left;
+    margin: 0 0 17px 0;
+}
