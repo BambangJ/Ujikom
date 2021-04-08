@@ -9,7 +9,7 @@ body{
 	position: relative;
 	
   }
-  #up:after {
+#up:after {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -21,7 +21,7 @@ body{
 	background: #aaa;
 	height: 1px;
   }
-  #up:hover:after {
+#up:hover:after {
 	width: 100%;
 	transition: 0.5s;
   }
@@ -31,6 +31,7 @@ body{
 }
 .navbar-brand{
 	margin: 0 22% 0 15px;
+	
 
 }
 .nav-link{
@@ -47,6 +48,7 @@ body{
 .carousel-item img{
 	height: 100%;
 	width: 70%;
+	opacity: 0.8;
 }
 .Title{
 	clear: left;
@@ -76,6 +78,7 @@ body{
 	margin: 18px 0 10px 15px;
 	float: left;
 	transition: transform .2s;
+	
 }
 .card.l:hover{
 	transform: scale(1.1);
@@ -126,9 +129,7 @@ footer{
 	height: 64%;
 	
  }
- .navbar.navbar-expand-lg{
-	border-bottom:20px solid rgb(37, 230, 220);
- }
+
  .Title.l{
 	 text-align: center;
  }
@@ -148,18 +149,29 @@ footer{
 	
  }
  .card.i img{
-	border-radius: 18px;
+	border-radius: 18px;	
+	opacity:0.4;
+	
+ }
+  .card.i img:hover{
+	opacity:1;
+	transition: opacity 0.9s;
  }
  .card.o{
 	
 	border: none;
-	margin: 5% 18% 20% 10px;
+	margin: 5% 10% 0 10px;
 	clear: both;
 	float: right;
 	
  }
  .card.o img{
 	border-radius: 18px;
+	opacity:0.4;
+ }
+  .card.o img:hover{
+	opacity:1;
+	transition: opacity 0.9s;
  }
  .card.i a{
 	 text-decoration: none;
@@ -175,3 +187,62 @@ footer{
 	 margin: 8% 12% 0 12%;
 	 text-align: center;
  }
+ .col{
+	margin:13px 0 12px 17px;
+	
+ }
+ footer{
+     background-color: #33383c;
+     padding:40px 0px;
+	 
+}	       
+
+footer ul li{
+    padding:5px 0px;
+}
+
+.Logo span , .Support span , .social span{
+   color: #FFF; 
+   font-weight: 800; 
+   padding-bottom: 10px; 
+   margin-bottom: 20px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 20px;
+   letter-spacing: 3px;
+   border-bottom:3px solid white;
+}
+.support li a , .social li a{
+    color:#FFF;
+    letter-spacing: 2px;
+    text-decoration:none;
+	list-style:none;
+    font-size:15px;
+}
+
+.social li{
+    float:left;
+	margin: 0 0 0 15px;
+}
+
+.Logo , .support , .social {
+    list-style: none;
+}
+
+footer i{
+    color:#9c9c9c;
+    margin-right: 15px;
+    font-size:14px;
+	border-radius:30px;
+	transition: 05s;
+}
+footer i:hover{
+	background-color:#b1b1b3;
+	
+}
+.footer.l{
+	 background-color: #33383c;
+	padding:40px 0px;
+	margin: 10% 0 0 0 ;
+}
+

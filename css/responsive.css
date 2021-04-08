@@ -41,6 +41,19 @@
 				display: none;
 				
 			}	
+			.card.o{
+			float:both;
+			border: none;
+			margin: 5% 0 20% 0;
+		
+			float: left;
+	
+			}
+			
+			.card.o img{
+			border-radius: 18px;
+			}
+			
 			footer{
 				display: none;
 			}
@@ -59,7 +72,7 @@
 			
 			}
 			.nav-link.log{
-					margin: 0 0 0 56%;
+					margin: 0 0 0 1%;
 			
 			}
 			h2{
@@ -71,8 +84,7 @@
 				display: none;
 			}
 			footer{
-				padding: 0 26% 18% 0;
-				margin: 46% 0 0 0 ;
+			display:none;
 			}
 		}
 		
@@ -94,8 +106,7 @@
 				opacity: 0.3;
 			}
 			footer{
-				padding: 0 26% 18% 0;
-				margin: 66% 0 0 0 ;
+				margin: 10% 0 0 0 ;
 			}
 		}
-		
+	
