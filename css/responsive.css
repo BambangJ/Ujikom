@@ -19,6 +19,9 @@
 					padding: 0 26% 18% 0;
 					margin: 76% 0 0 0 ;
 				}
+				.lay.o{
+					display: none;
+				}
 
 			}
 			
@@ -49,7 +52,9 @@
 			.input-group.u{
 				display: none;
 			}
-				
+			.lay.o{
+				display: none;
+			}	
 		}
 		
 
@@ -85,7 +90,9 @@
 			.input-group.l{
 				display: none;
 			}
-		
+			.lay.l{
+				display: none;
+			}
 			
 		}
 		
@@ -112,6 +119,9 @@
 			.input-group.l{
 				display: none;
 			}
-		
+			.lay.l{
+				display:none;
+			}
 		}
-	
+		
+		

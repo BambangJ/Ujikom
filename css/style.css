@@ -65,15 +65,15 @@ body{
 	text-align: center;
 
 }
+
 .card.l{
 	margin: 18px 0 10px 15px;
-	float: left;
 	transition: transform .2s;
 	
 }
 .card.l:hover{
 	transform: scale(1.1);
-	box-shadow: 2px; 
+
 }
 .card-img-top{
 	height: 190px;
@@ -82,6 +82,10 @@ body{
 }
 .icon{
 	padding: 8px 8px 10px 8px;
+}
+.fas.fa-plane-departure{
+	color: #444547;
+	margin: 0 0 0 57%;
 }
 .fas.fa-heart{
 	color: #444547;
@@ -98,10 +102,7 @@ body{
 .fas.fa-share-alt:hover{
 	color: black;
 }
-footer{
-	background-color: rgb(43, 44, 44);
-	color: cornsilk;
-}
+
 .carousel-caption{
 	font-weight: bold;
 	font-size: 18px;
@@ -129,13 +130,16 @@ footer{
 	
  }
  footer{
-     background-color: #33383c;
-     padding:40px 0px;
-	 
+    background-color: #33383c;
+    padding:40px 0px;
+	background-color: rgb(43, 44, 44);
+	color: cornsilk;
+	font-family: quicksand;
 }	       
 
 footer ul li{
     padding:5px 0px;
+	
 }
 
 .Logo span , .Support span , .social span{
@@ -144,10 +148,13 @@ footer ul li{
    padding-bottom: 10px; 
    margin-bottom: 20px;
    display: block;
-   text-transform: uppercase;
-   font-size: 20px;
-   letter-spacing: 3px;
-   border-bottom:3px solid white;
+
+   font-size: 17px;
+   letter-spacing: 2px;
+   border-bottom:2px solid rgb(201, 201, 201);
+}
+.logo span img{
+	width: 30.06px;
 }
 .support li a , .social li a{
     color:#FFF;
@@ -171,11 +178,11 @@ footer i{
     margin-right: 15px;
     font-size:14px;
 	border-radius:30px;
-	transition: 05s;
+	transition: color 0.5s;
 }
 footer i:hover{
-	background-color:#b1b1b3;
-	
+	color: #000;
+	transition: 0.5;
 }
 .footer.l{
 	background-color: #33383c;

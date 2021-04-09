@@ -2,9 +2,7 @@
 body{
     background-color:rgb(36, 33, 33);
 }
-.container.mb-5{
-    border-bottom:2px solid whitesmoke;
-}
+
 .card.o{
 
     border:none;
@@ -50,7 +48,7 @@ body{
     background-size: cover;
     text-shadow: 2px 2px #6e6969
 }
-.lay{
+.lay.o{
     float: left;
     margin: 0 0 17px 0;
 }
